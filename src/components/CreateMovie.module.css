@@ -1,0 +1,51 @@
+.movieForm {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .labfield {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* CreateMovie.module.css */
+.movieContainer {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+  .movieForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .radiobtn{
+    display: flex;
+  }
+  
+  /* Add your existing styles here */
+  
+  .textstyle{
+    margin: auto;
+    width: 200px;
+  }
+

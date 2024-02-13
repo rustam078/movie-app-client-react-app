@@ -1,0 +1,109 @@
+/* .notification-container {
+    position: absolute;
+    right: 11px;
+    width: 300px;
+    height: 499px;
+    background: #f5f1ea;
+    color: #282c34;
+    top: 144px;
+  }
+   */
+  .notification-icon {
+    cursor: pointer;
+  }
+  
+  .nicon{
+    display: flex;
+    height: 100%;
+    justify-content: end;
+    align-items: center;
+    cursor: pointer;
+  }
+  .notification-popup {
+    position: absolute;
+    right: 11px;
+    width: 300px;
+    height: 499px;
+    background: #f5f1ea;
+    color: #282c34;
+    top: 144px;
+  }
+  
+  .notificationMessage {
+   display: flex;
+   gap: 5px;
+  }
+  .notificationMessage p{
+    font-size: 13px;
+  }
+  .notificationMessage1 {
+    margin-top: -33px;
+    font-size: 12px;
+    text-align: center;
+    font-family: cursive;
+    color: brown;
+  }
+  
+
+  .notificationBadge {
+    background-color: red;
+    margin-top: -34px;
+    margin-right: 11px;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+  }
+  
+  .notificationCardContainer{
+    position: absolute;
+    right: 7px;
+    height: 300px;
+    background-color: #f2f2f2;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-top: 33px;
+  }
+  .notificationCard{
+    color: black;
+    width: 275px;
+    background-color: #ffffff;
+    padding: 5px;
+    box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.notificationCardContainer::-webkit-scrollbar {
+    width: 4px;  /* Remove scrollbar width */
+  }
+  
+  /* Optional: Hide scrollbar track */
+  ::-webkit-scrollbar-track {
+    display: none;  /* Hide scrollbar track */
+  }
+::-webkit-scrollbar-thumb {
+    background-color: #df0505;  /* Change thumb color */
+    border-radius: 10px;  /* Round the thumb corners */
+  }
+
+  .clearButton{
+    position: absolute;
+    right: 4px;
+    top: 8px;
+    color: green;
+    background-color: lightblue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .poster{
+    width: 35px;
+    height: 35px;
+    margin: auto;
+    border: 1px solid darkgreen;
+  }

@@ -1,0 +1,99 @@
+/* Header.module.css */
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .header h1{
+    margin-top: 0px;
+    margin-bottom: 16px;
+  }
+  
+  .nav {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    justify-content: space-around;
+    padding: 0.2rem 1rem;
+    background-color: #444;
+    height: 55px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  .navgrid{
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .nav a:hover,
+  .nav a.active {
+    /* border-bottom: 2px solid white; */
+  }
+  
+  /* New style for active link */
+  .activeLink {
+    border-bottom: 2px solid white;
+  }
+
+  /* Header.module.css */
+
+.searchContainer {
+  grid-column: span 4;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  position: relative;
+}
+
+.searchInput {
+  width: 30%;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+}
+
+.searchResults {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  left: 503px;
+  width: 29%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.searchResults li {
+  padding: 8px;
+  cursor: pointer;
+  color: black;
+  transition: background-color 0.3s ease;
+}
+
+.searchResults li:hover {
+  background-color: #f0f0f0;
+}
+
+
+.navLink{
+  background-color: #444;
+}
+
+.active{
+  color: aqua;
+}
+.activeNavLink {
+  color: red; 
+  font-weight: bold; 
+}

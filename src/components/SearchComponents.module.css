@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #deeeee;
+    height: 65px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.btns label{
+    font-family: cursive;
+}
+  .btns input,select{
+    border: none;
+    height: 35px;
+    border-bottom: 1px solid green;
+    margin: 5px;
+  }
+
+  .button {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: #61acfb;;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
